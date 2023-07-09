@@ -1,0 +1,19 @@
+To Build Docker:
+
+	docker build -t bank_note_authenticator .
+
+
+To Check running Dockers:
+
+	docker ps
+
+
+To Run the app:
+
+	docker run -p 8501:8501 bank_note_authenticator
+
+
+View the app on browser:
+
+	localhost:8501
+	
